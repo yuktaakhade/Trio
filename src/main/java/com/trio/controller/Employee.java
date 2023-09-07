@@ -11,4 +11,8 @@ public class Employee {
 		return "Hi..Application is running!!!";
 	}
 
+	@GetMapping("/")
+	public String getEmpDetails() {
+		return "running on aws ec2 instance";
+	}
 }
